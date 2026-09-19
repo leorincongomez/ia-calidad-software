@@ -1,5 +1,7 @@
 public class Compra {
 
+// Calcula el precio final aplicando descuentos según edad, VIP y valor de compra.
+
     public double calcular(double precio, int edad, boolean vip) {
 
         if (edad >= 18) {
